@@ -1,0 +1,23 @@
+{
+  "name": "Mean-Employees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroAntunez/Mean-Employees.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroAntunez/Mean-Employees/issues"
+  },
+  "homepage": "https://github.com/LeandroAntunez/Mean-Employees#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
