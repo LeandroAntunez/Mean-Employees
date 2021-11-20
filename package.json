@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/LeandroAntunez/Mean-Employees#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
