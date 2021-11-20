@@ -6,4 +6,20 @@ employeeCtrl.getEmployees = (req, res) => {
     })
 }
 
+employeeCtrl.createEmployee = function () {
+
+};
+
+employeeCtrl.getEmployee = function() {
+
+};
+
+employeeCtrl.editEmployee = function() {
+
+}
+
+employeeCtrl.deleteEmployee = function() {
+    
+}
+
 module.exports = employeeCtrl;
