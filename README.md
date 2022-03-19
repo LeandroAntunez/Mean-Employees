@@ -26,18 +26,18 @@ _Una serie de instrucciones paso a paso
 que te dice lo que debes ejecutar para tener
 un entorno de desarrollo ejecutándose._
 
-####_Vas a tener que abrir dos lineas de comandos, sobre el directorio del proyecto, en el cual vas a ingresar lo siguiente:_
+#### _Vas a tener que abrir dos lineas de comandos, sobre el directorio del proyecto, en el cual vas a ingresar lo siguiente:_
 
 ```
 mongod
 ```
 
-####_, en el otro vas a ingresar:_
+#### _, en el otro vas a ingresar:_
 ```
 npm run dev
 ```
 
-####_Por ultimo, abrir otra linea de comandos, pero sobre el directorio *frontend*, en el cual vas a ingresar lo siguiente:_
+#### _Por ultimo, abrir otra linea de comandos, pero sobre el directorio *frontend*, en el cual vas a ingresar lo siguiente:_
 ```
 npm run start
 ```
