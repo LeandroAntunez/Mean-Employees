@@ -48,7 +48,7 @@ _Las herramientas que utilicé para crear mi proyecto._
 
 * [Visual Studio Code](https://code.visualstudio.com/) para la IDE.
 * [NodeJS](https://nodejs.org/es/) para el entorno de ejecución del proyecto.
-* [React](https://es.reactjs.org/) para construir la interfaz de usuario.
+* [Angular](https://angular.io/) para construir la interfaz de usuario.
 
 ## Licencia 📄
 
