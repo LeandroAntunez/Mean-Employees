@@ -23,11 +23,12 @@ export class EmployeeComponent implements OnInit {
     if (form?.value._id) {
       this.employeeService.putEmployee(form.value).subscribe((res) => {
         this.resetForm(form);
-        M.toasts({html: 'Updated successfuly'});
+        M.toast({html: 'Employee updated successfuly'});
         this.getEmployees();
       });
     } else {
       this.employeeService.postEmployee(form?.value).subscribe((res) => {
+        M.toast({html: 'Employee created successfuly'});
         this.getEmployees();
         this.resetForm(form);
       });
@@ -47,6 +48,7 @@ export class EmployeeComponent implements OnInit {
   deleteEmployee(_id: string, form: NgForm) {
     if (confirm("Are you sure you want to delete it?")) {
       this.employeeService.deleteEmployee(_id).subscribe((res) => {
+        M.toast({html: 'Employee deleted successfuly'});
         this.getEmployees();
         this.resetForm(form);
       });
